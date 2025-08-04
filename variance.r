@@ -1,0 +1,6 @@
+data<-c(1,2,3,4,5,6,7,8,9,10)
+print(var(data))
+print(sd(data))
+print(sqrt(var(data)))
+range=max(data)-min(data)
+paste("range is",range)
